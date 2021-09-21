@@ -24,3 +24,12 @@ export const Header = styled.div`
   background: linear-gradient(90deg, #ffe259 0%, #ffa751 100%);
   border-radius: 20px;
 `;
+
+export const TextGroup = styled.div`
+  position: relative;
+  background-color: red;
+  width: 312px;
+  height: 259px;
+  left: 30px;
+  top: 150px;
+`;
