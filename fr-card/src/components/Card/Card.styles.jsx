@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import userIcon from "../../assets/userIcon.jpg"
+import userIcon from "../../assets/userIcon.jpg";
 
 export const Wrapper = styled.div`
   display: flex;
@@ -94,6 +94,7 @@ export const InfoText = styled.h3`
 
 export const UserWrapper = styled.div`
   position: absolute;
+  display: flex;
   width: 155px;
   height: 44px;
   left: 30px;
@@ -109,4 +110,19 @@ export const UserIcon = styled.img`
   background-image: url(${userIcon});
   background-size: cover;
   border-radius: 40px;
+`;
+
+export const UserName = styled.h3`
+  position: absolute;
+  width: 68px;
+  height: 15px;
+  top: 0;
+  margin: 5px 50px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+
+  color: #000000;
 `;
