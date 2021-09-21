@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   display: flex;
   text-align: center;
   justify-content: center;
-  background-color: red;
+  background-color: #0a8ffc;
   width: 100vw;
   min-height: 100vh;
 `;
