@@ -14,7 +14,7 @@
 </div>
 
 ### 📷 View
-<img src="/fr-card/docs/view.gif" alt="view" width="500" height="500">
+<img src="/fr-card/docs/view.gif" alt="view">
 
 
 
