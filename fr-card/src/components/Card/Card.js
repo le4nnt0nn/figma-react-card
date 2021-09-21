@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Wrapper, Layout, Header, TextGroup } from "./Card.styles";
+import { Wrapper, Layout, Header, TextGroup, Title } from "./Card.styles";
 
 export default class Card extends Component {
   render() {
@@ -8,7 +8,7 @@ export default class Card extends Component {
         <Layout>
           <Header/>
           <TextGroup>
-              
+              <Title>Trying Figma and React</Title>
           </TextGroup>
         </Layout>
       </Wrapper>
