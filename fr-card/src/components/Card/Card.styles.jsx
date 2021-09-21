@@ -50,3 +50,18 @@ export const Title = styled.h1`
 
   color: #000000;
 `;
+
+export const Subtitle = styled.p`
+  position: absolute;
+  top: 40px;
+  left: 5px;
+  width: 300px;
+  height: 213px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #9e9e9e;
+`;
