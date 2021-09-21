@@ -1,11 +1,16 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import userIcon from "../../assets/userIcon.jpg";
 
 export const Wrapper = styled.div`
   display: flex;
   text-align: center;
   justify-content: center;
+`;
+
+const layoutAnimation = keyframes`
+  0% { transform: scale(1); }
+  100% { transform: scale(1.04); }
 `;
 
 export const Layout = styled.div`
@@ -16,6 +21,7 @@ export const Layout = styled.div`
   background: #f5f5f5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
+  animation: ${layoutAnimation} ease-in 1s infinite alternate;
 `;
 
 export const Header = styled.div`
