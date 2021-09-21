@@ -11,7 +11,7 @@ export const Layout = styled.div`
   position: relative;
   width: 370px;
   height: 467px;
-  margin: 50px auto;
+  margin: 100px auto;
   background: #f5f5f5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
