@@ -27,13 +27,13 @@ export default class Card extends Component {
               learn more about this. Looks cool!
             </Subtitle>
             <InfoRectangle>
-                <InfoText>React.js</InfoText>
+              <InfoText>React.js</InfoText>
             </InfoRectangle>
           </TextGroup>
           <UserWrapper>
-              <UserIcon/>
-              <UserName>Le4nnt0nn</UserName>
-              <UserDate>September, 2021</UserDate>
+            <UserIcon />
+            <UserName>Le4nnt0nn</UserName>
+            <UserDate>September, 2021</UserDate>
           </UserWrapper>
         </Layout>
       </Wrapper>
