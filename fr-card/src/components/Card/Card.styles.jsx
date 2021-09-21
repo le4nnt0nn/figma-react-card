@@ -33,3 +33,20 @@ export const TextGroup = styled.div`
   left: 30px;
   top: 150px;
 `;
+
+export const Title = styled.h1`
+  position: absolute;
+  left: 13px;
+  width: 282px;
+  height: 29px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+`;
