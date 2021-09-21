@@ -3,9 +3,13 @@ import styled, { keyframes } from "styled-components";
 import userIcon from "../../assets/userIcon.jpg";
 
 export const Wrapper = styled.div`
+  height: auto;
   display: flex;
   text-align: center;
   justify-content: center;
+  background-color: red;
+  width: 100vw;
+  min-height: 100vh;
 `;
 
 const layoutAnimation = keyframes`
