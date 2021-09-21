@@ -7,6 +7,7 @@ import {
   Title,
   Subtitle,
   InfoRectangle,
+  InfoText,
 } from "./Card.styles";
 
 export default class Card extends Component {
@@ -22,7 +23,7 @@ export default class Card extends Component {
               learn more about this. Looks cool!
             </Subtitle>
             <InfoRectangle>
-                
+                <InfoText>React.js</InfoText>
             </InfoRectangle>
           </TextGroup>
         </Layout>
