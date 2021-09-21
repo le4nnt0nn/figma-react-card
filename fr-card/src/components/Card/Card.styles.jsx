@@ -90,3 +90,12 @@ export const InfoText = styled.h3`
 
   color: #d27f03;
 `;
+
+export const UserWrapper = styled.div`
+  position: absolute;
+  width: 155px;
+  height: 44px;
+  left: 30px;
+  top: 415px;
+  background-color: green;
+`;
