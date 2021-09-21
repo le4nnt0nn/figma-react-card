@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import userIcon from "../../assets/userIcon.jpg"
 
 export const Wrapper = styled.div`
   display: flex;
@@ -98,4 +99,14 @@ export const UserWrapper = styled.div`
   left: 30px;
   top: 415px;
   background-color: green;
+`;
+
+export const UserIcon = styled.img`
+  position: absolute;
+  left: 0;
+  width: 44px;
+  height: 44px;
+  background-image: url(${userIcon});
+  background-size: cover;
+  border-radius: 40px;
 `;
