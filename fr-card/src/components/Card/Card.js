@@ -9,6 +9,7 @@ import {
   InfoRectangle,
   InfoText,
   UserWrapper,
+  UserIcon,
 } from "./Card.styles";
 
 export default class Card extends Component {
@@ -28,7 +29,7 @@ export default class Card extends Component {
             </InfoRectangle>
           </TextGroup>
           <UserWrapper>
-              
+              <UserIcon/>
           </UserWrapper>
         </Layout>
       </Wrapper>
