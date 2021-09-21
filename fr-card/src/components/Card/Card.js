@@ -8,6 +8,7 @@ import {
   Subtitle,
   InfoRectangle,
   InfoText,
+  UserWrapper,
 } from "./Card.styles";
 
 export default class Card extends Component {
@@ -26,6 +27,9 @@ export default class Card extends Component {
                 <InfoText>React.js</InfoText>
             </InfoRectangle>
           </TextGroup>
+          <UserWrapper>
+              
+          </UserWrapper>
         </Layout>
       </Wrapper>
     );
