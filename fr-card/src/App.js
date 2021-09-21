@@ -1,11 +1,11 @@
-import styled from 'styled-components';
-import Card from './components/Card/Card';
-import logo from './logo.svg';
+import styled from "styled-components";
+import Card from "./components/Card/Card";
+import logo from "./logo.svg";
 
 function App() {
   return (
     <div>
-      <Card/>
+      <Card />
     </div>
   );
 }
