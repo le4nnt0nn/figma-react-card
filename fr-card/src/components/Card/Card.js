@@ -5,7 +5,7 @@ export default class Card extends Component {
     render() {
         return (
             <Wrapper>
-                <Layout/>
+                <Layout><h1>jastag</h1></Layout>
             </Wrapper>
         )
     }
