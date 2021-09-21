@@ -28,7 +28,6 @@ export const Header = styled.div`
 
 export const TextGroup = styled.div`
   position: relative;
-  background-color: red;
   width: 312px;
   height: 259px;
   left: 30px;
@@ -99,7 +98,6 @@ export const UserWrapper = styled.div`
   height: 44px;
   left: 30px;
   top: 415px;
-  background-color: green;
 `;
 
 export const UserIcon = styled.img`
@@ -109,6 +107,7 @@ export const UserIcon = styled.img`
   height: 44px;
   background-image: url(${userIcon});
   background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 40px;
 `;
 
@@ -125,4 +124,19 @@ export const UserName = styled.h3`
   line-height: 15px;
 
   color: #000000;
+`;
+
+export const UserDate = styled.h4`
+  position: absolute;
+  width: 100px;
+  height: 15px;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+
+  color: #6d6d6d;
 `;
