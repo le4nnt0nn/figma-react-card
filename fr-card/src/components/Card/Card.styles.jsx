@@ -74,3 +74,19 @@ export const InfoRectangle = styled.div`
   background: #ffe259;
   border-radius: 20px;
 `;
+
+export const InfoText = styled.h3`
+  position: absolute;
+  width: 54px;
+  height: 18px;
+  text-align: center;
+  left: 18px;
+  bottom: -12px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #d27f03;
+`;
