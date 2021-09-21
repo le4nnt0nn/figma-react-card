@@ -11,6 +11,7 @@ import {
   UserWrapper,
   UserIcon,
   UserName,
+  UserDate,
 } from "./Card.styles";
 
 export default class Card extends Component {
@@ -32,6 +33,7 @@ export default class Card extends Component {
           <UserWrapper>
               <UserIcon/>
               <UserName>Le4nnt0nn</UserName>
+              <UserDate>September, 2021</UserDate>
           </UserWrapper>
         </Layout>
       </Wrapper>
