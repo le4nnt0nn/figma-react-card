@@ -65,3 +65,12 @@ export const Subtitle = styled.p`
 
   color: #9e9e9e;
 `;
+
+export const InfoRectangle = styled.div`
+  position: relative;
+  width: 94px;
+  height: 25px;
+  top: 230px;
+  background: #ffe259;
+  border-radius: 20px;
+`;
