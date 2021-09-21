@@ -6,6 +6,7 @@ import {
   TextGroup,
   Title,
   Subtitle,
+  InfoRectangle,
 } from "./Card.styles";
 
 export default class Card extends Component {
@@ -20,6 +21,9 @@ export default class Card extends Component {
               A test trying Figma and React.js with styled components. I want to
               learn more about this. Looks cool!
             </Subtitle>
+            <InfoRectangle>
+                
+            </InfoRectangle>
           </TextGroup>
         </Layout>
       </Wrapper>
