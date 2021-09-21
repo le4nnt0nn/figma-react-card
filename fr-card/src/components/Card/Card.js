@@ -10,6 +10,7 @@ import {
   InfoText,
   UserWrapper,
   UserIcon,
+  UserName,
 } from "./Card.styles";
 
 export default class Card extends Component {
@@ -30,6 +31,7 @@ export default class Card extends Component {
           </TextGroup>
           <UserWrapper>
               <UserIcon/>
+              <UserName>Le4nnt0nn</UserName>
           </UserWrapper>
         </Layout>
       </Wrapper>
